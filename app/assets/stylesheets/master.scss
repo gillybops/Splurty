@@ -8,6 +8,21 @@
   clear: both;
 }
 
+.jmflag {
+    width:125px;
+    margin:1rem auto;
+    position: relative;
+}
+
+.text-on-flag {
+    background:rgba(255,255,255,0.5);
+    position: absolute;
+    top:50%;
+    left:0;
+    padding:1rem;
+    transform:translateY(-50%);
+}
+
 .circle {
     font-weight:bold;
     font-style: italic;
